@@ -1,0 +1,31 @@
+FIRST HEALTH MEMORIAL HOSPITAL DATA DICTIONARY,,,,,
+,,,,,
+,,,,,
+KEY,NAME,TERMS,TYPE,DESCRIPTION,DATA LINK
+,,,,,
+,PatientNum,,int,Primary key,
+,LastName,Last Name,varchar,"Last name of the person who us under a health care, who is waiting for or receiving it, or already received it. ",Patient_DB.Patient Billing_DB.Patient
+,FirstName,First Name,varchar,"First name of the person who us under a health care, who is waiting for or receiving it, or already received it. ",Patient_DB.Patient Billing_DB.Patient
+,SSN,Social Security Number,bigint,"A personally identifiable information. This is a numerical identifier that is uniquely assigned by the US Government to US citizens, and other residents to easily identify individuals within the Social Security system. This is also used to identify patients for identity verification when looking up health records and for payment collection for healthcare services. Example: 123-45-6789",Patient_DB.Patient
+,DOB,Date of Birth ,date,"The month, day, and year a person was born. Example: January 20, 2000",Patient_DB.Patient Billing_DB.Patient
+,Age,Age,int,The length of time that a person has lived from the time of birth.,Patient_DB.Patient
+,Sex,"Sex, Gender",varchar,"Sex or gender of patient whether as “male,”  “female,” or intersex that is typically assigned at birth.",Patient_DB.Patient
+,Address,Address,,"The particulars of the place where a patient lives. This includes house or apartment number, street name, city or town, state, and zip code.",Patient_DB.Patient
+,PhoneNum,Phone number,int,"Patient's phone number to contact or patient preference to get contacted.This includes home or residence phone number, mobile phone number, or work phone number. ",Patient_DB.Patient
+,EmergencyContact,Emergency Contact,varchar,The name person who will be contacted in case of an emergency. ,Patient_DB.Patient
+,EmergencyContactNum,Emergency Contact Phone Number ,bigint,"A phone number that an emergency contact can be reached. This could be a mobile, home, or work phone number.",Patient_DB.Patient
+,PrimaryInsurance,"Primary Insurance Name, Health Insurance Information, Medicaid, Medicare",varchar,The name of the health insurance company that covers a patient. The name indicates is billed first when a patient receives health care. ,Patient_DB.Patient Billing_DB.Patient
+,InsuranceIDNum,Insurance ID Number ,bigint,The health insurance policy number on the insurance card that indicates the coverage a health insurance provides. ,Patient_DB.Patient Billing_DB.Patient
+,InsuranceGroupNum,Insurance Group Number ,bigint,A patient’s employer's insurance group number to associate with a health insurance package to see types of healthcare coverage. ,Patient_DB.Patient Billing_DB.Patient
+,InsurancePolicyHolder,Policy Holder Name,varchar,The name of primary owner of the health insurance policy or the health insurance whose name is under,Patient_DB.Patient Billing_DB.Patient
+,SecondaryInsurance,"Secondary Insurance Name, Medicaid, Medicare ",varchar,The name of the health insurance company that will be billed for a patient’s extended health care coverage. This works together with the primary health insurance for coordinated benefits. ,Patient_DB.Patient
+,Provider,Primary Care Physician ,varchar,"The name of the physician (M.D. – Medical Doctor or D.O. – Doctor of Osteopathic Medicine), nurse practitioner, clinical nurse specialist or physician assistant, who provides, coordinates, or helps a patient access a range of health care services. ",Patient_DB.Patient
+,Referral,Referral,varchar,The name of the reffering provider who gave a written order for a patient to see a specialist or get certain medical services. ,Patient_DB.Patient
+,Diagnosis,Health Information,varchar,"Disease or condition that brough patient in that required health care. Example. Hypertension,  ",Patient_DB.Patient
+,MedicalTreatment,Medical Treatment ,varchar,"The care given to a patient. This includes all treatments (excluding first aid, observation, and diagnostic procedures), prescription medications, wound closing devices, devices to immobilize body parts, and administration of oxygen.",Patient_DB.Patient
+,EMC,Emergency Medical Condition,varchar,"An illness, injury, symptom, or condition so serious that a reasonable person would seek care right away to avoid severe harm.",Patient_DB.Patient
+,OutpatientCare,Hospital Outpatient Care,varchar,Care in a hospital that usually does not require an overnight stay. ,Patient_DB.Patient
+,InpatientCare,Inpatient Care ,varchar,Health care that a patient get when admitted as an inpatient in the hospital.,Patient_DB.Patient
+,Hospitalization,Hospitalization ,varchar,"Date(s) when patient was admitted as an in patient, and for what condition",Patient_DB.Patient
+,AE,Adverse event/effect,varchar,An event or effect from an unintended harm to the patient by an act of commission or omission rather than by the underlying disease or condition of the patient.,Patient_DB.Patient
+,AETrigger,Adverse event triggers,varchar,"Clinical data related to patient care indicating a reasonable probability that an adverse event has occurred or is occurring. An example of trigger data for an adverse drug event is a physician order for an antidote, a medication stop, or a dose decrease. ",Patient_DB.Patient
