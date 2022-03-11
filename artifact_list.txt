@@ -1,0 +1,15 @@
+Document Name	Document Status	Owner First Name	Owner Last Name	Approver First Name	Approver Last Name
+Data Quality Policies and Procedures	Complete	Robert	Thibodeaux	Scott	Zhou
+Business Glossary	Complete	Robert	Thibodeaux	Scott	Zhou
+Policies	Complete	Victoria	Blackmon	Scott	Zhou
+Data Owners & Stakeholders RACI Matrix	Complete	Mary	Smith	Scott	Zhou
+Conceptual Data Model	Complete	Robert	Thibodeaux	Mingsheng	Yang
+Data Catalog	Complete	Robert	Thibodeaux	Mingsheng	Yang
+Data Classification	Complete	Robert	Thibodeaux	Twila	Malone
+Data Sources Inventory	Complete	Barbara	Ruiz	Twila	Malone
+Standards Document	Complete	Victoria	Blackmon	Twila	Malone
+Data Governance Scorecard	Complete	Mary	Smith	Twila	Malone
+Data Quality Scorecard	Complete	Timothy	Jennings	Catherine	Ata
+Data Dictionary	Complete	Timothy	Jennings	Catherine	Ata
+Data Governance Enterprise Architectural Dataflow Diagram	Complete	Barbara	Ruiz	Catherine	Ata
+Data Quality Issues Log	Complete	Mary	Smith	Catherine	Ata
